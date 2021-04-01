@@ -6,7 +6,7 @@ class Todo extends Component {
       <div>
         <button>edit</button>
         <button>delete</button>
-        <li>{this.props.task}</li>
+        <li>{this.props.todo}</li>
       </div>
     );
   }
